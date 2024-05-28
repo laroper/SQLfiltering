@@ -71,6 +71,51 @@ WHERE department = 'Marketing' AND office LIKE 'East%';
 + Again the `LIKE` operator had to be used with a pattern of ‘East%’, alongside the `AND` operator which
 returned all employees from the Marketing department from all East offices.
 
+**e. Retrieve employees in Finance or Sales Department**
++ Information abour all employees in the Finance or the Sales department, and I need to locate information
+  on these employees. The sql query i ran is listed below:
+```
+SELECT *
+FROM employees
+WHERE department = 'Finance' OR department = 'Sales';
+```
+
+**f. Retrieve all employees not in IT Department**
++ Information about employees who are not in the Information Technology department is requested.
+  The sql query i ran is listed below:
+```
+SELECT *
+FROM employees
+WHERE NOT department = 'Information Technology';
+```
+
+### Summary
+>During this project I was able to refresh my practical experience in using SQL to
++ run SQL queries to retrieve information from a database and
++ apply AND , OR , and NOT operators to fi SQL queries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
