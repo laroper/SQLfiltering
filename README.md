@@ -1,5 +1,5 @@
 # SQL Filtering 
-__Project Description__: Ran SQL queries to retrieve information from a database called organization, that contained two tables with login attempts for employees. I applied AND, OR and NOT operators to filter various SQL queries. 
+__Description__: Ran SQL queries to retrieve information from a database called organization, that contained two tables with login attempts for employees. I applied AND, OR and NOT operators to filter various SQL queries. 
 
 ## **Structure of the tables**
 
@@ -90,9 +90,10 @@ WHERE NOT department = 'Information Technology';
 ```
 
 ### Summary
->During this project I was able to refresh my practical experience in using SQL to
-+ run SQL queries to retrieve information from a database and
-+ apply AND , OR , and NOT operators to fi SQL queries.
+> [!IMPORTANT]
+> During this project I was able to refresh my practical experience in using SQL to
+> + run SQL queries to retrieve information from a database and
+> + apply AND , OR , and NOT operators to fi SQL queries.
 
 
 
